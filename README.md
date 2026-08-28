@@ -37,10 +37,10 @@ lampa-latam-plugin/
 После публикации откройте в Lampa **Настройки → Плагины → Добавить плагин** и вставьте прямой HTTPS URL raw‑файла `latam.js`:
 
 ```
-https://raw.githubusercontent.com/WILLyJUAN/lampa-latam-plugin/main/latam.js
+https://cdn.jsdelivr.net/gh/WILLyJUAN/lampa-latam-plugin@main/latam.js
 ```
 
-Опубликованная ссылка: [latam.js](https://raw.githubusercontent.com/WILLyJUAN/lampa-latam-plugin/main/latam.js).
+Используйте CDN-ссылку: [latam.js](https://cdn.jsdelivr.net/gh/WILLyJUAN/lampa-latam-plugin@main/latam.js). В отличие от `raw.githubusercontent.com`, она отдаёт JavaScript с MIME-типом `application/javascript`; это нужно для загрузки через тег `<script>` в Chromium/Tizen.
 
 ## Ограничения, которые нельзя устранить внутри плагина
 
